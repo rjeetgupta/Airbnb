@@ -1,0 +1,33 @@
+{
+  "name": "booking_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.10.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.10.1",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "pino": "^10.4.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
